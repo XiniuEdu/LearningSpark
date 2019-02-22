@@ -1,0 +1,8 @@
+# Evn: Python shell mode
+# Name: Python filtering example
+
+lines=sc.textFile("../data/README.md") # 从本地、HDFS或其他Hadoop支持的文件系统载入文件，并返回字符串型的弹性分布式数据集，元素依次是读入文件的行。
+
+pythonLines=lines.filter(lambda line:"Python" in line) # 过滤出满足条件的元素，如程序中找出包含"Python"的行，并返回这些元素构成的弹性分布式数据集。
+
+pythonLines.first() # 返回弹性分布式数据集的第一个元素。

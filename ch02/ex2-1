@@ -1,0 +1,8 @@
+# Evn: Python shell mode
+# Name: Python line count
+
+lines=sc.textFile("../data/README.md") # 从本地、HDFS或其他Hadoop支持的文件系统载入文件，并返回字符串型的RDD，元素依次是读入文件的行。
+
+lines.count() #统计RDD的元素个数，也就是文件的行数。
+
+lines.first() #返回RDD的第一个元素。

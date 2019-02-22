@@ -1,0 +1,5 @@
+sbt clean package
+$SPARK_HOME/bin/spark-submit \
+  --class com.oreilly.learningsparkexamples.mini.scala.WordCount \
+  ./target/...(as above) \
+  ./README.md ./wordcounts

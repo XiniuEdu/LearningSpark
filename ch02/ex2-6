@@ -1,0 +1,4 @@
+# Evn: Command
+# Name: Running a Python script
+
+bin/spark-submit my_script.py # 使用spark-submit，向集群提交应用程序代码。
