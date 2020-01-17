@@ -1,0 +1,5 @@
+{"name":"jack","lovesPandas":false}
+{"name":"frank","lovesPandas":true}
+{"name":"james","lovesPandas":false}
+{"name":"bob","lovesPandas":true}
+{"name":"frank","lovesPandas":false}
